@@ -1,4 +1,4 @@
-.nav-list {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -7,7 +7,7 @@
   background-color: #333;
 }
 
-.nav-link {
+ul li a {
   display: block;
   padding: 15px 20px;
   text-decoration: none;
@@ -18,10 +18,10 @@
   transition: background 0.3s;
 }
 
-.nav-link:hover {
+ul li a:hover {
   background-color: #666;
 }
 
-.nav-link.active {
+ul li a.active {
   background-color: #007bff;
 }
